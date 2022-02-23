@@ -1,0 +1,22 @@
+Scan results from nmap
+Run at 2022-02-17 16:39:11.981188
+Arguments -sS -O -sV -r
+Hosts 192.168.2.*
+
+host:
+	ipv4: 192.168.2.254
+	mac: unknown
+	os:
+		name: FreeBSD 11.2-RELEASE
+			accuracy: 100
+	services:
+		name: domain
+			protocol: tcp
+			port: 53
+		name: http
+			protocol: tcp
+			port: 80
+	port:
+		 53
+		 80
+
